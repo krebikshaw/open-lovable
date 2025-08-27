@@ -10,5 +10,6 @@ export default defineConfig({
     strictPort: true,
     hmr: false,
     allowedHosts: ['.e2b.app', 'localhost', '127.0.0.1']
-  }
+  },
+  base: '/open-lovable/'
 })
